@@ -16,149 +16,113 @@ function genRandomInt (integer) {
     return Math.floor(Math.random()*integer)
 
 }
-var b = genRandomInt(10)
-function convert0To4(b)
+var a = genRandomInt(10)
+function convert0To5(a)
 {
-   if (b == 0)
+   if (a == 0)
   return 1;
 
   else {
     var temp = 0;
 
-    while (b > 0) {
-        var digit = b % 10;
+    while (a > 0) {
+        var digit = a % 10;
 
 
         if (digit == 0)
             digit = 5;
 
         temp = temp * 10 + digit;
-        b = parseInt(b / 10);
+        a = parseInt(a / 10);
     }
 
 
     return reverseTheNumber(temp);
   }
 }
-var a = convert0To4(b)
+var a = convert0To5(a)
 console.log(a)
-function reverseTheNumber(temp) {
-  var ans = 0;
-  while (temp > 0) {
-      var rem = temp % 10;
-      ans = ans * 10 + rem;
-      temp = parseInt(temp / 10);
-  }
-  return ans;
-}
-function genRandomInt (integer) {
-    return Math.floor(Math.random()*integer)
 
-}
-var b = genRandomInt(10)
-function convert0To4(b)
+var c = genRandomInt(10)
+function convert0To4(c)
 {
-   if (b == 0)
+   if (c == 0)
   return 1;
 
   else {
     var temp = 0;
 
-    while (b > 0) {
-        var digit = b % 10;
+    while (c > 0) {
+        var digit = c % 10;
 
 
         if (digit == 0)
             digit = 5;
 
         temp = temp * 10 + digit;
-        b = parseInt(b / 10);
+        c = parseInt(c / 10);
     }
 
 
     return reverseTheNumber(temp);
   }
 }
-var e = convert0To4(b)
-console.log(e)
-function reverseTheNumber(temp) {
-  var ans = 0;
-  while (temp > 0) {
-      var rem = temp % 10;
-      ans = ans * 10 + rem;
-      temp = parseInt(temp / 10);
-  }
-  return ans;
-}
-function genRandomInt (integer) {
-    return Math.floor(Math.random()*integer)
-
-}
-var b = genRandomInt(10)
-function convert0To4(b)
-{
-   if (b == 0)
-  return 1;
-
-  else {
-    var temp = 0;
-
-    while (b > 0) {
-        var digit = b % 10;
-
-
-        if (digit == 0)
-            digit = 5;
-
-        temp = temp * 10 + digit;
-        b = parseInt(b / 10);
-    }
-
-
-    return reverseTheNumber(temp);
-  }
-}
-var c = convert0To4(b)
+var c = convert0To4(c)
 console.log(c)
-function reverseTheNumber(temp) {
-  var ans = 0;
-  while (temp > 0) {
-      var rem = temp % 10;
-      ans = ans * 10 + rem;
-      temp = parseInt(temp / 10);
-  }
-  return ans;
-}
-function genRandomInt (integer) {
-    return Math.floor(Math.random()*integer)
 
-}
-var b = genRandomInt(10)
-function convert0To4(b)
+var d = genRandomInt(10)
+function convert0To3(d)
 {
-   if (b == 0)
+   if (d == 0)
   return 1;
 
   else {
     var temp = 0;
 
-    while (b > 0) {
-        var digit = b % 10;
+    while (d > 0) {
+        var digit = d % 10;
 
 
         if (digit == 0)
             digit = 5;
 
         temp = temp * 10 + digit;
-        b = parseInt(b / 10);
+        d = parseInt(d / 10);
     }
 
 
     return reverseTheNumber(temp);
   }
 }
-var d = convert0To4(b)
+var d = convert0To3(d)
 console.log(d)
+
+var e = genRandomInt(10)
+function convert0To2(e)
+{
+   if (e == 0)
+  return 1;
+
+  else {
+    var temp = 0;
+
+    while (e > 0) {
+        var digit = e % 10;
+
+
+        if (digit == 0)
+            digit = 5;
+
+        temp = temp * 10 + digit;
+        e = parseInt(e / 10);
+    }
+
+
+    return reverseTheNumber(temp);
+  }
+}
+var e = convert0To2(e)
+console.log(e)
 
 
 var bot = mineflayer.createBot({
