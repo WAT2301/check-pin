@@ -183,12 +183,12 @@ function createBot () {
               .setColor('F90000')
               .setDescription(`Bot đã bị disconnect khỏi ${ip}`)
           channel.send(cn3);
-      setTimeout(createBot, 150000)
+      setTimeout(createBot, 240000)
     })      
-    bot.on('end', function () {
-      console.log('ended')
-      setTimeout(createBot, 200000)
-      })
+//    bot.on('end', function () {
+//      console.log('ended')
+//      setTimeout(createBot, 200000)
+//      })
 
   
 // fs.writeFile('./data.txt',
